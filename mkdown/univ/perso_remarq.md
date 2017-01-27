@@ -1,3 +1,6 @@
 [![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 #Personnages Remarquables#
+
+* Ascension
+Chef du groupe Jugement Dernier

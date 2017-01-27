@@ -14,6 +14,7 @@
 * [Religion](univ/religion.html)
 * [Magie](univ/magie.html)
 * [Personnages remarquables](univ/perso_remarq.html)
+* [Factions](univ/factions.html)
 
 ##Personnages Joueurs##
 * [Seabirth](pc/seabirth.html)

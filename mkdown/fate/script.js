@@ -3,8 +3,7 @@
   
     function initialise (evt)
     {
-      document.querySelector("ul").classList.add("skills")
-      var h4s = document.querySelectorAll("h4");
+      var h4s = document.querySelectorAll("li");
       for (var i = 0 ; i < h4s.length ; i++)
       {
         var h4 = h4s[i];

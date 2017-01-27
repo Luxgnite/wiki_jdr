@@ -18,3 +18,18 @@ Ain Sof Aor
 Lance une vague d'energie démoniaque afin d'éliminer à coup sur un adversaire. Rend l'utilisateur K.O pendant plusieurs tour
 
 Double personnalité magique.
+
+Jeune aventurier en quêtes de richesses naturels.
+Bonne ressources en survie en dehors des villes, le fait de dormir dehors ne lui fait pas peur.
+Amical envers tous le monde, il essaye tant qu'il peut d'éviter les conflits.
+Cependant ... Sa double personnalité n'hésite pas à tuer tout ce qui bouge dans un élan de violence sous la colère et la haine. Cependant, il ne semble pas au courant de ce qu'il se passe lors de ces crises.
+
+#Personnalité#
+
+Gentil et aimable de sa bonne personne.
+Cruel et sauvage de sa mauvaise personne.
+
+#Caractéristiques du personnage#
+
+Assez mignon avec les filles.Aide quiconque dans le besoin en cas de soucis, même gratuitement =p.
+

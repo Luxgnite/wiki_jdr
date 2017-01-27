@@ -14,7 +14,8 @@ markdown-preview mkdown/univ/histoire.md -o univ/histoire.html
 markdown-preview mkdown/univ/langues.md -o univ/langues.html
 markdown-preview mkdown/univ/magie.md -o univ/magie.html
 markdown-preview mkdown/univ/perso_remarq.md -o univ/perso_remarq.html
-markdown-preview mkdown/univ/politique.md -o univ/politique.html
+markdown-preview mkdown/univ/geopolitique.md -o univ/politique.html
 markdown-preview mkdown/univ/races.md -o univ/races.html
 markdown-preview mkdown/univ/religion.md -o univ/religion.html
 markdown-preview mkdown/univ/technologie.md -o univ/technologie.html
+markdown-preview mkdown/univ/factions.md -o univ/factions.html
