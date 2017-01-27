@@ -1,3 +1,4 @@
+cd /home/cabox/workspace
 mkdir pc
 mkdir univ
 mkdir fate
