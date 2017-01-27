@@ -1,0 +1,23 @@
+Aspects et Points Fate
+
+Définir les aspects
+
+Un aspect est une phrase qui décrit quelque chose unique ou de remarquable à propose de ce à quoi il est rattaché. 
+Ils sont les manières primaires de dépenser ou de gagner des points Fate, et ils influencent l'histoire en occasionant
+des opportunités pour chaque personnage d'obtenir un bonus, de compliquer la vie d'un personnage, ou augmenter le
+jet de dés d'un autre personnage ou d'une opposition passive.
+
+Définir les points Fate
+
+MJs et joueurs, vous possédez tous une certaine réserve de points appelés "points Fate" que vous pouvez utiliser 
+pour influencer le jeu. Vous les représentez avec des jetons, comme nous l'avons mentionné dans Les Bases.
+Joueurs, vous démarrez avec un certain nombre de points à chaque scénario, équivalent au Rafraichissement de votre
+Personnage. Vous réinitialisez aussi cette quantité à celui de votre taux de Rafraichissement si vous terminez un
+une session de milieu de scénario avec moins de points que ce taux. MJs, vous avez un budget de points de Fate
+à dépenser à chaque scène.
+Lorsque vos aspects sont utilisés en jeu, vous dépensez ou obtenez généralement un point Fate.
+
+
+Tpes d'aspects
+
+Chaque jeu de Fate a différents types d'aspects : 

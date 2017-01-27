@@ -1,0 +1,16 @@
+https://github.com/showdownjs/showdown
+https://github.com/showdownjs/showdown/wiki/CLI-tool
+showdown makehtml --flavor="github"
+https://www.npmjs.com/package/markdown-preview
+
+Usage
+  markdown-preview [options] <filename>
+Options
+-h, --help                   output usage information
+-V, --version                output the version number
+-P, --parser <parser>        use markdown parser, remark | marked | showdown
+-p, --port <port>            server port (defaults to 3333)
+-b, --browser <browser>      browser name to open
+-c, --css <name>             use customize css file for styling
+-i, --highlight <highlight>  set highlight style
+-o, --output <filename>      write to file

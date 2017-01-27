@@ -1,0 +1,38 @@
+Aspects et Points Fate
+
+Définir les aspects
+
+Un aspect est une phrase qui décrit quelque chose unique ou de remarquable à propose de ce à quoi il est rattaché. 
+Ils sont les manières primaires de dépenser ou de gagner des points Fate, et ils influencent l'histoire en occasionant
+des opportunités pour chaque personnage d'obtenir un bonus, de compliquer la vie d'un personnage, ou augmenter le
+jet de dés d'un autre personnage ou d'une opposition passive.
+
+Définir les points Fate
+
+MJs et joueurs, vous possédez tous une certaine réserve de points appelés "points Fate" que vous pouvez utiliser 
+pour influencer le jeu. Vous les représentez avec des jetons, comme nous l'avons mentionné dans Les Bases.
+Joueurs, vous démarrez avec un certain nombre de points à chaque scénario, équivalent au Rafraichissement de votre
+Personnage. Vous réinitialisez aussi cette quantité à celui de votre taux de Rafraichissement si vous terminez un
+une session de milieu de scénario avec moins de points que ce taux. MJs, vous avez un budget de points de Fate
+à dépenser à chaque scène.
+Lorsque vos aspects sont utilisés en jeu, vous dépensez ou obtenez généralement un point Fate.
+
+
+Tpes d'aspects
+
+Chaque jeu de Fate a différents types d'aspects : les aspects de jeu, les aspects de personnage, les aspects de situation, les conséquences et les boosts. Ils diffèrent grandement des uns des autres en ce sur quoi ils sont attachés et combien de temps ils durent.
+
+Aspects de jeu
+
+Les Aspects de jeu sont des "aménagements" permanents, d'où le nom. Bien qu'ils peuvent changer au cours du temps, ils ne disparaitront jamais. Si vou êtes déjà passé par le processus de création du jeu, vous les avez déjà définis - les problèmes actuelles ou à venir que vous avez trouvés. Ils décrivent des problèmes ou des menaces qui existent dans le monde, et qui seront la base pour l'histoire de votre jeu. 
+
+Tout le monde peut invoquer, "contraindre" ou créer un avantage sur un aspect de jeu à n'importe quel moment ; ils sont toujours là et disponibles.
+
+Aspects de personnage 
+
+Les Aspects de personnage sont tout aussi permanent, mais influence une plus petite échelle, car attaché à un PC ou à un PNJ. Ils décrivent un nombre quasi-infini de choses qui mettent votre personnage a part, tel  que : 
+*	Des traits de personnalités significatifs ou des croyances ( Tombe pour les jolies minois, Ne jamais laisser un homme derrière, Un bon Tsyntavian est un Tsyntavian mort)
+
+*	L'histoire de fond du personnage ou sa profession (Eduqué à l'Académie des Lames, Né "Spacer", Voleur Cybérnétique des rues)
+
+*	Une possession importante ou un trait notable (l'Epée ensanglanté de mon père, Habillé pour les Neufs, )
