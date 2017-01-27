@@ -1,3 +1,3 @@
-[![Logo Fate Accueil](../img/power_fate.PNG)](../index.html)
+[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 #Races#

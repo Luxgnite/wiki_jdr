@@ -1,8 +1,8 @@
-[![Logo Fate Accueil](../img/power_fate.PNG)](../index.html)
+[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 #Seabirth#
 
-![Image portrait Seabirth](../img/seabirth.jpg)
+![Image portrait Seabirth](../ressources/img/seabirth.jpg)
 
 ##Biographie##
 Humain. Habitant d'une grande ville, a vu à la "TV" le concept de Heros. A toujours rêver depuis d'en devenir (Justicier/Instinct). Il aime faire la cuisine / Gourmand. Rencontre avec une baby-sitter qui l'a kidnappé. Elle voyage beaucoup. Elle a aidé grandement Seabirth à développer ses valeurs, ce qui la fait conclure que s'il voulait devenir héros, il ferait tout pour devenir héros. Nourrice = Faunus Ses parents travaillaient. Famille aisé travaillant dans la gestion de l'argent (huissier, banquier,...)

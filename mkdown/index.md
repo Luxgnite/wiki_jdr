@@ -1,8 +1,8 @@
-[![Logo Fate Accueil](./img/power_fate.png)](index.html)
+[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 #Accueil
 
-![Logo Fate](img/fate_logo.png)
+![Logo Fate](ressources/img/fate_logo.png)
 
 ##Univers##
 * [Géographie](univ/geographie.html)
@@ -20,9 +20,10 @@
 * [Saya](pc/saya.html)
 * [Chimichanga](pc/chimichanga.html)
 * [Naryou Dador](pc/naryou_dador.html)
+* [Micka](pc/micka.html)
 
 ##Système FATE##
-* [Règles officielles (en anglais)](docs/Fate_Core_Electronic.pdf)
+* [Règles officielles (en anglais)](ressources/docs/Fate_Core_Electronic.pdf)
 * [Compétences](fate/skills.html)
 
 ##Autres##

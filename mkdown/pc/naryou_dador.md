@@ -1,8 +1,8 @@
-[![Logo Fate Accueil](../img/power_fate.PNG)](../index.html)
+[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 #Naryou Dador#
 
-![Image portrait Naryou](../img/naryou.jpg)
+![Image portrait Naryou](../ressources/img/naryou.jpg)
 
 ##Biographie##
 un grand myster

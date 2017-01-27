@@ -1,4 +1,4 @@
-[![Logo Fate Accueil](../img/power_fate.PNG)](../index.html)
+[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
 
 <script type="text/javascript" src="script.js"></script>
 
