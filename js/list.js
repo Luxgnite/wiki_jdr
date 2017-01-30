@@ -49,11 +49,9 @@
     }
     function displayElement (evt)
     {
-      console.log("lol");
       var skillDescriptions = this.children;
       for (var i = 1; i < skillDescriptions.length; i++)
       {
-        console.log("boucle");
         var skillDescr = skillDescriptions[i];
 
         if (!(skillDescr.className=="description display") && skillDescr.className=="description")
@@ -90,10 +88,7 @@
       {
         liner = children[i];
         if (liner.className == "liner")
-        {
-          console.log("mitsuketa!");
           break;
-        }
       }
       liner.style.transition="width 400ms ease";
       liner.style.width = window.getComputedStyle(this.children[0]).getPropertyValue("width");
@@ -108,7 +103,6 @@
       {
         if (children[i].className == "liner")
         {
-          console.log("mitsuketa!");
           liner = children[i];
           break;
         }
