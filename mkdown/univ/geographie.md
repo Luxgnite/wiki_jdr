@@ -1,4 +1,5 @@
 [![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
+<script type="text/javascript" src="../js/list.js"></script>
 
 #Geographie#
 
@@ -7,3 +8,11 @@ Ces villes géantes sont habités par des humains et des nains en grande majorit
 Au contraire, les elfes sont totalement opposés à cette urbanisation et vivent dans la campagne, qui est très sauvage. Ils vivent dans des petits clans, qui n'ont pas forcément de liens entre eux.
 Les Faunus vivent de manière indiviuelles, répartie de manière globale dans le monde : villes, forêts, etc...
 Il existe des ruines d'une ancienne civilisation qui on le sait à "conquérit" le monde dans le passé mais qui pour une raison inconnu à disparu de la surface de la planète.
+
+##Cités##
+
+* ####Avgang####
+
+  Ville classique de la civilisation humaine. Elle est séparée en plusieurs plateaux, dont le plus bas est dédié aux pauvres et le plus haut, aux riches.
+  
+  ![Avgang plan](/ressources/docs/blueprints/avgang_profile_plan.jpg)

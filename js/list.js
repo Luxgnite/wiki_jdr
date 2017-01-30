@@ -19,7 +19,7 @@
       {
         var oneSkills = h4s[i];
         oneSkills.style.margin="0px";
-        oneSkills.addEventListener('click', displayElement);
+        oneSkills.addEventListener('click', onClickDisplay);
         oneSkills.addEventListener('mouseenter', skillHover);
         oneSkills.addEventListener('mouseleave', skillNonHover);
 
@@ -45,12 +45,25 @@
         oneDescr.style.opacity="0";
 
       }
+      
+      if (location.hash.slice(1)!="")
+        {
+          var li = document.getElementById(location.hash.slice(1)).parentNode;
+          var child = document.getElementById(location.hash.slice(1)).parentNode.children;
+          displayElement(li, child);
+        }
     }
-    function displayElement (evt)
+
+    function onClickDisplay (evt)
     {
       var li = this.parentNode;
       var skillDescriptions = this.parentNode.children;
-      for (var i = 1; i < skillDescriptions.length; i++)
+      displayElement(li, skillDescriptions);
+    }
+
+function displayElement(li, skillDescriptions)
+{
+  for (var i = 1; i < skillDescriptions.length; i++)
       {
         var skillDescr = skillDescriptions[i];
         
@@ -77,7 +90,7 @@
           }
          }
       }
-    }
+}
 
     
     function skillHover (evt)
