@@ -15,10 +15,9 @@
         h4s[i].parentNode.appendChild(liner);
         h4s[i].parentNode.insertBefore(liner, h4s[i].parentNode.childNodes[1]);
       }
-      var lis = document.querySelectorAll("li h4");
-      for (var i=0; i < lis.length; i++)
+      for (var i=0; i < h4s.length; i++)
       {
-        var oneSkills = lis[i].parentNode;
+        var oneSkills = h4s[i];
         oneSkills.style.margin="0px";
         oneSkills.addEventListener('click', displayElement);
         oneSkills.addEventListener('mouseenter', skillHover);
@@ -49,40 +48,41 @@
     }
     function displayElement (evt)
     {
-      var skillDescriptions = this.children;
+      var li = this.parentNode;
+      var skillDescriptions = this.parentNode.children;
       for (var i = 1; i < skillDescriptions.length; i++)
       {
         var skillDescr = skillDescriptions[i];
-
-        if (!(skillDescr.className=="description display") && skillDescr.className=="description")
+        
+        if (!(skillDescr.className=="liner"))
         {
-          console.log("visible");
-          this.style.transition="height 5s linear";
-          skillDescr.style.transition="0.5s opacity";
-          skillDescr.style.opacity="1";
-          skillDescr.style.height="auto";
-          skillDescr.classList.add("display");
-          this.style.paddingLeft = "15px";
-          this.style.marginBottom = "15px";
-        }
-        else if (skillDescr.className=="description display")
-        {
-          console.log("invisible");
-          skillDescr.style.transition="";
-          skillDescr.classList.remove("display");
-          skillDescr.style.height="0";
-          skillDescr.style.opacity="0";
-          this.style.paddingLeft = "0px";
-          this.style.marginBottom = "0px";
-        }
+          if (!(skillDescr.className=="description display") && skillDescr.className=="description")
+          {
+            li.style.transition="height 5s linear";
+            skillDescr.style.transition="0.5s opacity";
+            skillDescr.style.opacity="1";
+            skillDescr.style.height="auto";
+            skillDescr.classList.add("display");
+            li.style.paddingLeft = "15px";
+            li.style.marginBottom = "15px";
+          }
+          else if (skillDescr.className=="description display")
+          {
+            skillDescr.style.transition="";
+            skillDescr.classList.remove("display");
+            skillDescr.style.height="0";
+            skillDescr.style.opacity="0";
+            li.style.paddingLeft = "0px";
+            li.style.marginBottom = "0px";
+          }
+         }
       }
     }
 
     
     function skillHover (evt)
     {
-      console.log("hover");
-      var children = this.children;
+      var children = this.parentElement.children;
       var liner;
       for (var  i = 0 ; i < children.length ; i++)
       {
@@ -91,13 +91,13 @@
           break;
       }
       liner.style.transition="width 400ms ease";
-      liner.style.width = window.getComputedStyle(this.children[0]).getPropertyValue("width");
+      liner.style.width = window.getComputedStyle(children[0]).getPropertyValue("width");
       this.style.cursor="pointer";
     }
 
     function skillNonHover (evt)
     {
-      var children = this.children;
+      var children = this.parentElement.children;
       var liner;
       for (var  i = 0 ; i < children.length ; i++)
       {
