@@ -1,3 +1,3 @@
-[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
+[![Logo Fate Accueil](../ressources/img/power_fate.png)](../index.html)
 
 #Magie#

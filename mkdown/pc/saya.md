@@ -1,8 +1,8 @@
-[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
+[![Logo Fate Accueil](../ressources/img/power_fate.png)](/index.html)
 
 #Saya#
 
-![Image portrait Saya](../img/saya.jpg)
+![Image portrait Saya](../ressources/img/saya.jpg)
 
 ##Biographie##
  Jeune archèere héritière de la force de la nature depuis des générations, elle veille au bien être de l'équilibre naturelle. Et possede des pouvoirs Fantomique controlant la gravité

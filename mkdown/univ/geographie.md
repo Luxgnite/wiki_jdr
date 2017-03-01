@@ -1,4 +1,4 @@
-[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
+[![Logo Fate Accueil](../ressources/img/power_fate.png)](../index.html)
 <script type="text/javascript" src="../js/list.js"></script>
 
 #Geographie#
@@ -15,4 +15,4 @@ Il existe des ruines d'une ancienne civilisation qui on le sait à "conquérit" 
 
   Ville classique de la civilisation humaine. Elle est séparée en plusieurs plateaux, dont le plus bas est dédié aux pauvres et le plus haut, aux riches.
   
-  ![Avgang plan](/ressources/docs/blueprints/avgang_profile_plan.jpg)
+  ![Avgang plan](../ressources/docs/blueprints/avgang_profile_plan.jpg)

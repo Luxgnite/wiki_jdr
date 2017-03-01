@@ -1,8 +1,8 @@
-[![Logo Fate Accueil](/ressources/img/power_fate.png)](/index.html)
+[![Logo Fate Accueil](../ressources/img/power_fate.png)](/index.html)
 
 #Micka#
 
-![Image portrait Micka](../ressources/img/saya.jpg)
+![Image portrait Micka](../ressources/img/micka.jpg)
 
 ##Biographie##
 
