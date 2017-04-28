@@ -1,0 +1,771 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ title }}</title>
+  <style>.markdown-body {margin: 2em auto; padding: 1em}</style>
+  <style>
+/**
+ *  https://github.com/sindresorhus/github-markdown-css
+ */
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  padding-left: 8px;
+  margin-left: -30px;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4183c4;
+}
+</style>
+  <link rel="stylesheet" href="/template/highlight/styles/github.css" />
+  <script src="/template/highlight/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+  <div class="markdown-body">
+    <p><a href="/index.html"><img src="/ressources/img/power_fate.png" alt="Logo Fate Accueil" /></a></p>
+<h1 id="jeuderle">Jeu de rôle</h1>
+<h2 id="notes">Notes</h2>
+<h3 id="personnages">Personnages</h3>
+<ul>
+<li><h4 id="naryou">Naryou</h4>
+<p>tribu des naryu --> en harmonie avec la nature / fusion avec l'élément --> Un hybride entre être humain &amp; esprit
+vivait dans un cratère de volcan, au dessus du lac de lave (ville suspendu).
+Peut s'harmoniser ave cles éléments qui l'entourent, ce qui en permet d'en acquérir les forces mais aussi les faiblesses
+Mutation du corps a force de s'harmoniser ( corne du côté droit, quasi aveugle de l'oeil droit, côté droit malformé): si l'harmonisation dure trop longtemps (plus de quelques heures) risque de malformation.
+Tradition de son clan : suivre la personne qui sauve ça sa vie</p></li>
+<li><h4 id="yuuko">Yuuko</h4>
+<p>Elfe, ayant des pouvoirs d'un nature inconnu de tous, même de elle-même. Descendente d'une tribu inconnu des elfes hermites qui vivaient dans une forêt éloigné de toute civilisation. Natifs. Prévaut la vie en nature.
+Condamne la vie urbaine.
+Sa famille possède un pouvoir qui se transmet de génération en génération
+Agacée par l'hémétisme de son village, décide d'explorer le monde extérieur pour découvrir si d'autres lieux ou personnes ont plus besoin que d'aide que son village.</p></li>
+<li><h4 id="seabirth">Seabirth</h4>
+<p>Humain. Habitant d'une grande ville, a vu à la "TV" le concept de Heros. A toujours rêver depuis d'en devenir (Justicier/Instinct). Il aime faire la cuisine / Gourmand. Rencontre avec une baby-sitter qui l'a kidnappé. Elle voyage beaucoup. Elle a aidé grandement Seabirth à développer ses valeurs, ce qui la fait conclure que s'il voulait devenir héros, il ferait tout pour devenir héros. Nourrice = Faunus Ses parents travaillaient. Famille aisé travaillant dans la gestion de l'argent (huissier, banquier,...)
+Ne vie plus désormait avec sa nourrice.
+Seabirth avait 7 ans quand il a rencontré pour la première fois sa nourrice. Celle-ci était un Faunus, une race qui, à l'époque, était peu apprécié des humains. Ceux-ci étaient souvent victimes d'agressions racistes et étaient traités commes des esclaves. Ainsi, sa nourrice était parmis les "heureux" élus à posséder un travail et un salaire. Pour autant, elle était payée une misère et maltraitée par les parents de Seabirth. 
+Sa nourrice était tombé sous le charme de ce petit garçon qui passait son temps à regarder la TV et à rêver. Il était son moment de bonheur, de légèreté. Elle oublait toutes ses douleurs, ses tristesses et ses regrets quand elle s'occupait de lui. Elle se comportait comme une mère.
+Un an passa sans que rien de notable ne se déroula : elle vivait dans la misère, se faisait aggressé, maltraité par les parents de Seabirth quand ceux-ci revenaient chez eux, et s'occupait tendrement du petit garçon qui éclairait sa vie. Cependant, un jour où la tension contre les Faunus était trop élevé, il eut un dérapage : un foule humaine s'était rassemblé dans les rues et frappaient à mort tout Faunus qu'ils croisaient. La nourrice eut le malheur d'être remarqué devant l'immeuble de Seabirth, et elle se réfugia chez lui lorsque ceux-ci accoururent vers elle. 
+Elle craqua : depuis quelques temps déjà, l'idée de fuire cette vie avait commencer à germer dans son esprit, mais elle ne voulait pas abandonner Seabirth qu'elle tenait trop à coeur. Mais cet événement lui fit franchir le pas : elle était déterminé à s'enfuir et à survivre. 
+En rentrant, elle s'effondra en larmes. Seabirth, curieux, lui demanda ce qui n'allait pas. Au son de sa voix, la nourrice eut une révélation : Seabirth était tout ce qu'elle avait... Alors elle le garderait. 
+S'échappant de l'immeuble en kidnappant Seabirth, ils finirent par réussirent à s'en tirer, et quittèrent la ville. Depuis, elle l'éleva comme son propre fils, survivant en acceptant divers boulots, allant de ville en ville, cachés.
+Elle l'entraîna à être indépendant, survivre, et lui inculqua des valeurs fortement altruistes. 
+Seabirth à toujours voulu devenir un héros. Depuis qu'il en a vu à la TV. Sa nourrice l'a toujours encouragé à poursuivre ses rêves, et de ce fait l'as toujours encouragé et aidé à devenir un héros. 
+Cependant, le jour fatidique que celle-ci craignait fini par arivé : le jour où Seabirth voulu prendre son envol, se sentant prêt à devenir un héros. Elle décida de tester ses compétances en combat pour évaluer sa valeur, qu'il remporta de justesse. Ils se séparèrent, sa nourrice lui révélant qu'elle avait l'intention de s'installer définitivement quelque part, pour mettre fin à ses années d'erance. Seabirth, lui, se dirigea vers la ville la plus proche...</p></li>
+<li><p>####Micka####
+Humain possèdant une double personnalité : une gentille, peur de faire mal aux autres, dans la plupart des situations, et l'autre méchante, violente, qui se manifeste dans des situations de conflits et n'hésite pas à tuer tout ce qui bouge, ayant même des difficultés à distinguer ennemis des amis.
+Inspiré du personnage d'Emil Castagnier de Tale of Symphonia
+Jeune aventurier en quêtes de richesses naturels.
+​Bonne ressources en survie en dehors des villes, le fait de dormir dehors ne lui fait pas peur.
+​Amical envers tous le monde, il essaye tant qu'il peut d'éviter les conflits.
+​Cependant ... Sa double personnalité n'hésite pas à tuer tout ce qui bouge dans un élan de violence sous la colère et la haine.
+Restaurer la nature telle qu'elle était avant.</p></li>
+</ul>
+<p>Ain Sof Aor
+Lance une vague d'energie démoniaque afin d'éliminer à coup sur un adversaire. Rend l'utilisateur K.O pendant plusieurs tour</p>
+<p>Double personnalité magique.</p>
+<h2 id="rencontre">Rencontre</h2>
+<p>Saya, en sortant de sa forêt natif, se fit attaquer par une <a href="http://www.magiccorporation.com/scan/commander_2014/vf/049.jpg">grande créature</a> qui la poursuivit jusqu'a la lisière du bois. C'est à ce moment que Seabirth, qui se rendait vers Avgang et qui passait à proximité de la forêt, aperçu notre héroïne en détresse. Il décida donc, en tout "bon" héros, de sauver notre archère, ce qu'il fit en chargeant et enfonçant sa lance dans l'épaule de la créature. Cela déstabilisa la créature, et elle fuya, blessé, dans la forêt. Seabirth lui proposa directement, comme tout Seabirth qui se respecte, d'inviter Saya dans un projet qui lui était venu depuis un certain temps, celui de créer une agence d'humanoïdes à tout faire. Emplit de sympathie pour son sauveur, Saya accepta son offre et décida de suivre Seabirth dans l'espoir de découvrir le monde plus facilement avec lui.</p>
+<p>2~3 jours après </p>
+<p>Pendant que Chimichanga massacrait des thugs pendant une de ses "balades" nocturnes, seabirth interverna en tout "bon" héros. Son but n'était pas de sauver les thugs de chimichanga mais de les massacrer. De ce fait, il vit en Chimichanga une potentiel recrue pour son agence d'humanoïdes à tout faire. Chimichanga accepta volontiers, pensant que cela lui permettrait de tromper son ennui souvent, et de se faire une réputation qui lui permettrait d'attirer des Faunus femelles à oreilles de chat. </p>
+<h3 id="univers">Univers</h3>
+<p>Univers Fantasy</p>
+<h4 id="organisationspatiale">Organisation spatiale</h4>
+<p>Urbanisation peu étendu mais extrêmement dense (villes gratte-ciel à la technologie fortement développé et mise en avant - style art déco, mais rural peu développé).
+Ces villes géantes sont habités par des humains et des nains en grande majorité. Au contraire, les elfes sont totalement opposés à cette urbanisation et vivent dans la campagne, qui est très sauvage. Ils vivent dans des petits clans, qui n'ont pas forcément de liens entre eux.
+Les Faunus vivent de manière indiviuelles, répartie de manière globale dans le monde : villes, forêts, etc...
+Il existe des ruines d'une ancienne civilisation qui on le sait à "conquérit" le monde dans le passé mais qui pour une raison inconnu à disparu de la surface de la planète.</p>
+<h4 id="races">Races</h4>
+<ul>
+<li>Humain</li>
+<li>Elfe</li>
+<li>Nain</li>
+<li>"Faunus" : 
+Humanoïde avec quelques parties animales (les parties animales varie fonction du personnage. Cela peut être simplement les Yeux, Oreilles et Queue, à un pelage jusqu'à un animal à conscience intelligente . Dépends de leur habitat. Leur corps évolue et s'adapte très rapidement /1 an). Race très individuel.</li>
+<li>Elémentaire</li>
+</ul>
+<h4 id="technologie">Technologie</h4>
+<p>Steampunk - Techno développé, mais sans électricité, uniquement à l'énergie mécanique. Développé grâce au couplage Humain+Nains</p>
+<h4 id="langages">Langages</h4>
+<ul>
+<li>Commun : Langue parlé dans les villes parlés par les humains et les nains, qui est d'ailleurs issue des langues qui leurs sont originaires.</li>
+<li>Elfique : langue parlé par les elfes.</li>
+<li>Animal : Langue des animaux et des Faunus.</li>
+<li>Langue des anciens : langue de la civilisation disparue</li>
+</ul>
+<h4 id="gopolitique">Géopolitique</h4>
+<p>Gouvernement mondiale, chaque ville est une faction dirigé par un seigneur marchand qui concurrence les autres villes pour obtenir les grâces du "chef mondiale". Le gouvernement est situé sur un lieu secret, personne ne sait qui ils sont, et ils gouvernent depuis longtemps. Cependant, ils communiquent avec chaque cité grâce à une machine qui transmet leurs ordres et volontés.///**-
+radetsjel.hebfree.org</p>
+  </div>
+</body>
+</html>
+<script>(function () {
+
+  (window.mp = {
+      init: function() {
+        setInterval(function() {
+          var url = '/jsonp-request?callback=mp.jsonpCallback&s='+(+new Date());
+          mp.injectScript(url);
+        }, 1e3);
+      }
+    , injectScript: function(src) {
+        var stag = document.createElement('script');
+        stag.src = src;
+        document.body.appendChild(stag);
+        setTimeout(function() {
+          stag.parentNode.removeChild(stag);
+        }, 1e3);
+      }
+    , updateClient: function(html) {
+        window.location.reload();
+      }
+    , jsonpCallback: function(stamp, html) {
+        this.localStamp || (this.localStamp = stamp);
+        if (this.localStamp < stamp) {
+          this.localStamp = stamp;
+          this.updateClient(html);
+        }
+      }
+  }).init();
+
+})()</script>
